@@ -28,7 +28,7 @@ public class StringCalculator {
 		{
 			for(int i = 0; i < recValues.length; i++)
 			{
-				value += Integer.parseInt(recValues[0]);
+				value += Integer.parseInt(recValues[i]);
 			}
 			prompt = Integer.toString(value);
 			System.out.println("in default");
