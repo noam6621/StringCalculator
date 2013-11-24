@@ -15,11 +15,13 @@ public class StringCalculatorAddTest {
 	@Test
 	public void addTest() {
 		StringCalculator calculator = new StringCalculator();
-		String value0 = "";
+		/*String value0 = "";
 		calculator.add(value0);
 		String value1 = "23";
-		calculator.add(value1);
+		calculator.add(value1);*/
+		String value2 = "23,5";
+		calculator.add(value2);
 		
-		assertEquals("23", calculator.prompt);
+		assertEquals("28", calculator.prompt);
 	}
 }
