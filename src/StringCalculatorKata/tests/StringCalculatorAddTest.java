@@ -17,7 +17,9 @@ public class StringCalculatorAddTest {
 		StringCalculator calculator = new StringCalculator();
 		String value0 = "";
 		calculator.add(value0);
+		String value1 = "23";
+		calculator.add(value1);
 		
-		assertEquals("0", calculator.prompt);
+		assertEquals("23", calculator.prompt);
 	}
 }
