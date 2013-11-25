@@ -1,0 +1,4 @@
+StringCalculator
+================
+
+TDD kata excerise
