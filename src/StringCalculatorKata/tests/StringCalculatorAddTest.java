@@ -40,7 +40,7 @@ public class StringCalculatorAddTest {
 	@Test
 	public void add8Test() {
 		StringCalculator calculator = new StringCalculator();
-		String value = "23,5\n3,67,1,\n43,7,4";
+		String value = "23,5,3,67,1,43,7,4";
 		calculator.add(value);
 		
 		assertEquals("153", calculator.prompt);
